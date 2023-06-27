@@ -44,7 +44,7 @@ foreach (var item in Array)
 {
     if (item % 2 == 0)
     {
-        System.Console.Write($"{item} ");
+        //System.Console.Write($"{item} ");
         count++;
     }
 }
