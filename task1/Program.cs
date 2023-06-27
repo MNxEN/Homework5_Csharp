@@ -16,7 +16,7 @@ int Prompt(string message)
     return 0;
 }
 
-int[] GenerateArray(int len, int min, int max)		// Создает и наполняет массив
+int[] GenerateArray(int len, int min, int max)		
 {
     int[] list1 = new int[len];
     Random rnd = new Random();
@@ -27,7 +27,7 @@ int[] GenerateArray(int len, int min, int max)		// Создает и напол�
     return list1;
 }
 
-void PrintArray(int[] Array)				// Показывает в терминале массив
+void PrintArray(int[] Array)				
 {
     for (int i = 0; i < Array.Length; i++)
     {
@@ -36,7 +36,7 @@ void PrintArray(int[] Array)				// Показывает в терминале м
     System.Console.WriteLine();
 }
 
-void PrintEvenCount(int[] Array)				// Показывает в терминале массив
+void PrintEvenCount(int[] Array)				
 {
 System.Console.WriteLine();
 int count = 0;
