@@ -2,7 +2,7 @@
 // Напишите программу, которая покажет количество чётных чисел в массиве.
 // [345, 897, 568, 234] -> 2
 
-int Prompt(string message)
+int PromptPositive(string message)
 {
     System.Console.Write($"{message} > ");
     string inputedStr = Console.ReadLine();
@@ -51,7 +51,7 @@ foreach (var item in Array)
 System.Console.WriteLine($"Количество четных элементов = {count}");
 }
 
-int lenArr = Prompt("Введите количество элементов массива");
+int lenArr = PromptPositive("Введите количество элементов массива");
 int[] numbers = GenerateArray(lenArr, 100, 999);
 
 PrintArray(numbers);
